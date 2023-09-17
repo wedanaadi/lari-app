@@ -40,7 +40,7 @@ export default function CategorySistem() {
     token: tokenLogin,
     onError: (err) => {
       if (err.response) {
-        let message = "Gagal load data bank"
+        let message = "Gagal load data categories"
         if (err.response.status === 401) {
           message = "Token login expired"
           actionLogin(ResetAuthValue)

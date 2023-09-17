@@ -36,6 +36,23 @@ Masih di direktori yang sama, jalan kan perintah ini:
 ```bash
 npm install
 ```
+
+Run mode developer:
+
+  
+
+```bash
+npm run dev
+```
+
+Build Frontend (React js):
+
+  
+
+```bash
+npm run build
+```
+
 Import Database laraevent.sql
 Rename file .env.back menjadi .env, kemudian atur setup database
 ```bash
