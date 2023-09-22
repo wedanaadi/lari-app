@@ -98,7 +98,7 @@ export default function Login(): JSX.Element {
                   <span className="font-medium"> Processing... </span>
                 </div>
               ) : (
-                <span>Simpan</span>
+                <span>Login</span>
               )}
             </button>
           </div>
